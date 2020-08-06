@@ -32,3 +32,8 @@ export function without2(array) {
 
   return filteredArray;
 }
+
+/** use array method includes
+const without = (array, ...args) => {
+ return array.filter(el => !args.includes(el))
+}
