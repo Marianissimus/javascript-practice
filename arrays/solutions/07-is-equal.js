@@ -15,3 +15,8 @@ export const isEqual = (firstArray, secondArray) => {
 
   return !compared.includes(false);
 };
+
+/* turn arrays to string and compare them */
+const isEqual = (firstArray, secondArray) => {
+  return firstArray.join('') === secondArray.join('')
+}
